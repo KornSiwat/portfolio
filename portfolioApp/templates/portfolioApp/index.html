@@ -1,0 +1,20 @@
+{% extends 'global/base.html' %}
+
+{% block title %}
+  Siwat's Portfolio
+{% endblock %}
+
+{% load static %}
+
+{% block css %}
+  <link rel="stylesheet" href="{% static 'portfolioApp/css/portfolioApp.css' %}" />
+{% endblock %}
+
+{% block content %}
+  {% include 'portfolioApp/includes/navbar.html' %}
+  <div class="index-container">
+  </div>
+{% endblock %}
+
+{% block script%}
+{% endblock %}
