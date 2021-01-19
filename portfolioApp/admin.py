@@ -1,6 +1,5 @@
 from django.contrib import admin
-from portfolioApp.models import Achievement, ContactMessage
+from portfolioApp.models import ContactMessage
 
 
-admin.site.register(Achievement)
 admin.site.register(ContactMessage)
