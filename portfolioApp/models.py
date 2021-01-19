@@ -18,7 +18,6 @@ class ContactMessage(models.Model):
 
 
 class Achievement(models.Model):
-    image = models.ImageField(upload_to="achievementpics/")
     name = models.CharField(max_length=255, null=False)
     description = models.CharField(max_length=255, null=False)
     year = models.PositiveIntegerField(
