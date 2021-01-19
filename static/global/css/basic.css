@@ -1,12 +1,17 @@
 :root {
-  --gray: #b4b4b4;
-  --light-gray: #e4e4e4;
-  --background: #ffffff;
-  --font-color: #292929;
+  --gray: #333841;
+  --light-gray: #8e96a7;
+  --main-background: #282c34;
+  --sub-background: #25272c;
+  --font-color: #ffffff;
 }
 
-*  {
-  font-family: 'Nunito', sans-serif;
+body {
+  background: var(--main-background);
+}
+
+* {
+  font-family: "Nunito", sans-serif;
   font-size: 16px;
   color: var(--font-color);
 }
