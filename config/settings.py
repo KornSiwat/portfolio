@@ -120,9 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = "/home/KornSiwat/portfolio/static"
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
 
 # Media files (users' profile pic)
 MEDIA_URL = '/media/'
