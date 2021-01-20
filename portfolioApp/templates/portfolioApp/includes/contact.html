@@ -7,3 +7,10 @@
   <p>Email: siwatponpued@gmail.com</p>
   <p>Github: KornSiwat</p>
 </div>
+
+<form method="POST">
+  <h2>Leave Message</h2>
+  {% csrf_token%}
+  {{form.as_p}}
+  <input type="submit" class="form-button" />
+</form>
