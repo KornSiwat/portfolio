@@ -7,13 +7,13 @@
 {% load static %}
 
 {% block css %}
-  <link rel="stylesheet" href="{% static 'portfolioApp/css/portfolioApp.css' %}" />
 {% endblock %}
 
 {% block content %}
   {% include 'portfolioApp/includes/navbar.html' %}
   <div class="index-container">
     {% include 'portfolioApp/includes/profile.html' %}
+    {% include 'portfolioApp/includes/skill.html' %}
     {% include 'portfolioApp/includes/achievement.html' %}
     {% include 'portfolioApp/includes/contact.html' %}
   </div>
